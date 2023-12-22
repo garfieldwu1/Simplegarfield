@@ -1,0 +1,39 @@
+{
+	"Language": "en",
+	"PreKey": "",
+	"AutoUpdate": true,
+	"MainColor": "#f2901f",
+	"MainName": "[ GARFIELD ]",
+	"Uptime": true,
+	"Login2Fa": false,
+	"AutoLogin": false,
+	"BroadCast": false,
+	"AuthString": "",
+	"EncryptFeature": true,
+	"ResetDataLogin": false,
+	"AutoRestartMinutes": 0,
+	"HTML": {
+		"HTML": false,
+		"UserName": "Guest",
+		"MusicLink": "https://drive.google.com/uc?id=1zlAALlxk1TnO7jXtEP_O6yvemtzA2ukA&export=download"
+	},
+	"Config": "default",
+	"Stable_Version": {
+		"Accept": false,
+		"Version": ""
+	},
+	"DevMode": false,
+	"RestartMQTT_Minutes": 0,
+	"AntiGetInfo": {
+		"AntiGetThreadInfo": true,
+		"AntiGetUserInfo": true,
+		"Database_Type": "default"
+	},
+	"AntiSendAppState": true,
+	"AutoInstallNode": false,
+	"Websocket_Extension": {
+		"Status": false,
+		"ResetData": false,
+		"AppState_Path": "appstate.json"
+	}
+}
