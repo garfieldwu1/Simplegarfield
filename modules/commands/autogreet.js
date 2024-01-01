@@ -53,7 +53,7 @@ module.exports.onLoad = (o) =>
     }
     if (currentHour !== 0) { 
       global.data.allThreadID.forEach((threadID) => {
-        o.api.sendMessage(`𝙳𝚊𝚒𝚕𝚢 𝚖𝚎𝚜𝚜𝚊𝚐𝚎 🔔\n\n${rand}`, threadID).catch((error) => {
+        o.api.sendMessage(`𝐃𝐚𝐢𝐥𝐲 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 🔔\n\n${rand}\n\n-𝐆𝐚𝐫𝐟𝐢𝐞𝐥𝐝`, threadID).catch((error) => {
           console.error('Error sending message:', error);
         });
       });
